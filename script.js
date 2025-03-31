@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("login-form");
     const usernameInput = document.getElementById("username");
@@ -37,3 +36,4 @@ document.addEventListener("DOMContentLoaded", function () {
         alert(`Logged in as ${localStorage.getItem("username")}`);
     });
 });
+
